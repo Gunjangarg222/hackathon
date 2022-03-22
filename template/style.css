@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+  }
+  .container{
+    height: 350px;
+    width: 430px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+  }
+  .container1{   
+        height: 350px;
+        width: 430px;
+        margin-bottom: 100px;
+        position: relative;      
+  }
+  .container .wrapper{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .container1  .wrapper1{
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+  .wrapper.active{
+    border: none;
+  }
+  .wrapper1.active{
+    border: none;
+  }
+  .wrapper .image{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper1 .image1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .wrapper1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .wrapper .icon{
+    font-size: 100px;
+    color: #b300ff;
+  }
+  .wrapper1 .icon1{
+    font-size: 100px;
+    color: #b300ff;
+  }
+  .wrapper .text{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+  }
+  .wrapper1 .text1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #5B5B7B;
+  }
+  .wrapper #cancel-btn{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #e74c3c;
+    cursor: pointer;
+    display: none;
+  }
+  .wrapper1 #cancel-btn1{
+    position: absolute;
+    font-size: 20px;
+    right: 15px;
+    top: 15px;
+    color: #e74c3c;
+    cursor: pointer;
+    display: none;
+  }
+  .wrapper.active:hover #cancel-btn{
+    display: block;
+  }
+  .wrapper1.active:hover #cancel-btn1{
+    display: block;
+  }
+  .wrapper #cancel-btn:hover{
+    color: #e74c3c;
+  }
+  .wrapper1 #cancel-btn1:hover{
+    color: #e74c3c;
+  }
+  .wrapper .file-name{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(315deg, rgba(234,182,231,1) 0%, rgba(179,0,255,1) 47%, rgba(235,21,21,1) 100%);
+  }
+  .wrapper1 .file-name1{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    color: #fff;
+    display: none;
+    background: linear-gradient(315deg, rgba(234,182,231,1) 0%, rgba(179,0,255,1) 47%, rgba(235,21,21,1) 100%);
+  }
+  .wrapper.active:hover .file-name{
+    display: block;
+  }
+  .wrapper1.active:hover .file-name1{
+    display: block;
+  }
+  .container #custom-btn{
+    margin-top: 30px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(315deg, rgba(234,182,231,1) 0%, rgba(179,0,255,1) 47%, rgba(235,21,21,1) 100%);
+  }
+  .container1 #custom-btn1{
+    margin-top: 30px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(315deg, rgba(234,182,231,1) 0%, rgba(179,0,255,1) 47%, rgba(235,21,21,1) 100%);
+  }
