@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+  }
+  .container{
+    height: 350px;
+    width: 430px;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    position: relative;
+    align-items: center;
+  }
+  .container .wrapper{
+    position: relative;
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+    float: left;
+    border-radius: 10px;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .container position{
+      float: left;
+  }
+  .container .wrapper1{
+    position: relative;
+    height: 300px;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10px;
+    float: left;
+    background: #fff;
+    border: 2px dashed #c2cdda;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .wrapper .image{
+      padding: 10px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wrapper1 .image1{
+    position: absolute;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+#back{
+    margin-top: 30px;
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: linear-gradient(315deg, rgba(234,182,231,1) 0%, rgba(179,0,255,1) 47%, rgba(235,21,21,1) 100%);
+   }
+   .back{
+     text-decoration: none;
+  color: #fff;  
+  font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px; 
+  }

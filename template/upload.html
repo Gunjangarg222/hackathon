@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="upload.css">
     <script src="https://kit.fontawesome.com/5d46df8c76.js" crossorigin="anonymous"></script>
    <title>Upload</title>
 </head>
@@ -30,7 +30,7 @@
               File name here
            </div>
         </div>
-        <button onclick="defaultBtnActive()" id="custom-btn">Choose a file</button>
+        <button onclick="defaultBtnActive()" id="custom-btn">upload photo</button>
         <input id="default-btn" type="file" hidden>
      </div>
      <div class="container1">
@@ -53,14 +53,16 @@
               File name here
            </div>
         </div>
-        <button onclick="defaultBtnActive1()" id="custom-btn1">Choose a file</button>
+        <button onclick="defaultBtnActive1()" id="custom-btn1">upload signature</button>
         <input id="default-btn1" type="file" hidden>
      </div>
-     <button><a href="file:///C:/Users/as/hackathon/template/next.html">
-           Next
-     </a>
-     </button>
+     <a class="next" href="file:///D:/hackathon/a.html">
+      <button id="next" >
+            Next
+      
+      </button>  </a>
      </div>
+     
      <script>
         const wrapper = document.querySelector(".wrapper");
         const fileName = document.querySelector(".file-name");
